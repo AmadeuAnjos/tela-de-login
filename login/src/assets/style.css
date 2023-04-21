@@ -16,22 +16,20 @@
     background: -o-linear-gradient(tto left, #21d4fd, #b721ff);
     background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
     background: linear-gradient(to left, #21d4fd, #b721ff);
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .wrap-login {
-    width: 400px;
+    width: 400px;  
     background-color: #333;
     border-radius: 8px;
-
     overflow: hidden;
     padding: 77px 55px 33px 55px;
-    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .login-form {
@@ -40,22 +38,22 @@
 
 .login-form-tittle {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-
     line-height: 1.2;
     text-align: center;
 }
 
 .login-form-tittle img{
-    width: 80px;
+    width: 70px;
+    margin-top: 15px;
 }
 
 .wrap-input {
     width: 100%;
     position: relative;
     border-bottom: 2px solid #adadad;
-    margin-bottom: 37px;
+    margin: 40px auto 37px;
 }
 
 .input {
@@ -89,11 +87,9 @@
     left: 0;
     width: 0;
     height: 2px;
-
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
-
     background: -webkit-linear-gradient(to left, #b721ff, #21d4fd);
     background: -o-linear-gradient(to left, #b721ff, #21d4fd);
     background: -moz-linear-gradient(to left, #b721ff, #21d4fd);
@@ -103,17 +99,14 @@
 .focus-input::after{
     font-size: 15px;
     color: #999999;
-    line-height: 1.2;
-    
+    line-height: 1.2;    
     content: attr(data-placeholder);
-
     display: block;
     width: 100%;
     position: absolute;
     top: 16px;
     left: 0;
     padding-left: 5px;
-
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -130,6 +123,15 @@
 .input:focus + .focus-input::before {
     width: 100%;
 }
+
+.has-val + .focus-input::after {
+    top: -15px;
+}
+
+.has-val + .focus-input::before {
+    width: 100%;
+}
+
 
 .container-login-form-btn {
     display: flex;
@@ -150,7 +152,6 @@
     align-items: center;
     width: 100%;
     height: 50px;
-
     background: -webkit-linear-gradient(to left, #b721ff, #21d4fd);
     background: -o-linear-gradient(to left, #b721ff, #21d4fd);
     background: -moz-linear-gradient(to left, #b721ff, #21d4fd);
