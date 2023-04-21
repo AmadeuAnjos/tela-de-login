@@ -1,8 +1,11 @@
 import logoL from './assets/logo.png'
-
 import './assets/style.css'
+import { useState } from 'react';
 
 function App() {
+
+  const [email, setEmail] = useState();
+
   return (
     <div className="container">
       <div className="container-login">
@@ -17,12 +20,12 @@ function App() {
 
                 <div className="wrap-input">
                   <input className="input" type="email"/>
-                    <span className="focus-input" data-placeholder="Email"></span>
+                    <span className="focus-input"data-placeholder="Email"></span>
                 </div>
 
                 <div className="wrap-input">
                   <input className="input" type="password"/>
-                    <span className="focus-input" data-placeholder="Email"></span>
+                    <span className="focus-input"data-placeholder="Email"></span>
                 </div>
 
                 <div className="container-login-form-btn">
@@ -30,7 +33,7 @@ function App() {
                 </div>
 
                 <div className="text-center">
-                  <span className="txt1">Não possui conta? </span>
+                  <span className="txt1">Não possui conta?</span>
                   <a className="txt2" href="#">Criar conta.</a>
 
                 </div>
