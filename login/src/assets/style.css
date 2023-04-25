@@ -13,7 +13,7 @@
     width: 100%;
     min-height: 100vh;
     background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
-    background: -o-linear-gradient(tto left, #21d4fd, #b721ff);
+    background: -o-linear-gradient(to left, #21d4fd, #b721ff);
     background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
     background: linear-gradient(to left, #21d4fd, #b721ff);
     display: flex;
@@ -171,7 +171,7 @@
 
 .txt1 {
     font-size: 14px;
-    color: #21d4fd;
+    color: white;
     line-height: 1.2;
     text-decoration: none;
     padding-right: 5px;
@@ -179,7 +179,7 @@
 
 .txt2 {
     font-size: 14px;
-    color: white;
+    color: #21d4fd;
     line-height: 1.2;
     text-decoration: none;
 }
