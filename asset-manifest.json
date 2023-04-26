@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tela-de-login/static/css/main.35cb02f6.css",
+    "main.js": "/tela-de-login/static/js/main.384dc16c.js",
+    "static/media/logo.png": "/tela-de-login/static/media/logo.7dea91061464dfe6109a.png",
+    "index.html": "/tela-de-login/index.html",
+    "main.35cb02f6.css.map": "/tela-de-login/static/css/main.35cb02f6.css.map",
+    "main.384dc16c.js.map": "/tela-de-login/static/js/main.384dc16c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35cb02f6.css",
+    "static/js/main.384dc16c.js"
+  ]
+}
